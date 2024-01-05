@@ -1,0 +1,175 @@
+:root{
+   --primary: black;
+   --secondary: #ffe5ec;
+   --tertiary: #fb6f92;
+   --quarternary: #ffb3c6;
+}
+
+[theme="dark"]{
+    --primary: white;
+    --secondary: #0F0F0F;
+    --tertiary: #272727;
+    --quarternary: #0F0F0F;
+}
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+
+  body {
+    background-image: linear-gradient(var(--quarternary), var(--secondary));
+  }
+
+  .navcont {
+    height: 40px;
+    width: 100px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navcont:hover {
+    background-color: var(--tertiary);
+    border-radius: 20px;
+    transform: scale(1.05);
+  }
+
+  h1 {
+    font-size: 120px;
+    text-align: center;
+    color: var(--primary);
+  }
+
+  h2 {
+    font-size: 80px;
+    text-align: center;
+    color: var(--primary);
+  }
+
+  .axo {
+    width: 70px;
+    margin-top: 20px;
+  }
+
+  .about-title {
+    color: var(--primary);
+    font-size: 100px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    background-color: var(--tertiary);
+    border-radius: 20px;
+  }
+
+  .about-text {
+    color: var(--primary);
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .profile {
+    width: 350px;
+  }
+
+  .skill-title {
+    color: var(--primary);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--tertiary);
+    border-radius: 20px;
+  }
+
+  .plang,
+  .proj {
+    color: var(--primary);
+    font-size: 50px;
+  }
+
+  .pimg {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .jimg {
+    width: 100px;
+    margin-top: 30px;
+  }
+  
+  .card{
+    background-color: var(--tertiary);
+  }
+
+  .progress-bar {
+    background-color: var(--tertiary);
+  }
+
+  .project-title {
+    color: var(--primary);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--tertiary);
+    border-radius: 20px;
+  }
+
+  .proj-desc {
+    color: var(--primary);
+    font-size: 26px;
+  }
+
+  .contact {
+    color: var(--primary);
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .detail {
+    color: var(--primary);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .detail-con {
+    height: 50px;
+    width: 350px;
+    padding: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: var(--tertiary) solid;
+    outline: none;
+  }
+  .detail-con-txt {
+    width: 350px;
+    padding: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(255, 207, 219, 0);
+    border-bottom: var(--tertiary) solid;
+    outline: none;
+  }
+
+   .contsub{
+    color: var(--primary);
+   }
+
+  .card:hover,
+  .profile:hover,
+  .about-title:hover,
+  .skill-title:hover,
+  .project-title:hover {
+    transform: scale(1.05);
+  }
+  hr{
+    color: var(--primary);
+  }
+  footer{
+    color: var(--primary);
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    margin-bottom: 20px;
+  }
