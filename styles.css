@@ -156,6 +156,16 @@
     color: var(--primary);
    }
 
+   .Send{
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--tertiary);
+    color: var(--primary);
+   }
+
   .card:hover,
   .profile:hover,
   .about-title:hover,
